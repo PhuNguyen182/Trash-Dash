@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85639cd0bfc429a4b85da2a4e51020ae, type: 3}
+  m_Name: Shop Item Database
+  m_EditorClassIdentifier: 
+  Powerups:
+  - MaxBuyCount: 6
+    ItemType: 1
+    ID: Powerup_Magnet
+    ItemName: Magnet
+    CoinPrice: 1
+    PremiumPrice: 0
+    ItemIcon: {fileID: 21300028, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 103320, guid: 8c89761b43b2362418709a8178d5dd8c, type: 3}
+  - MaxBuyCount: 6
+    ItemType: 1
+    ID: Powerup_Multiply
+    ItemName: Multiply
+    CoinPrice: 1
+    PremiumPrice: 0
+    ItemIcon: {fileID: 21300030, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 113618, guid: 1269ce00623d4694f927c463dd3be44a, type: 3}
+  - MaxBuyCount: 6
+    ItemType: 1
+    ID: Powerup_Invincible
+    ItemName: Invincible
+    CoinPrice: 1
+    PremiumPrice: 0
+    ItemIcon: {fileID: 21300032, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 1000012396982878, guid: 527cd33d94f565c428b85a011d736c3c, type: 3}
+  Characters:
+  - MaxBuyCount: 1
+    ItemType: 2
+    ID: Character_Trashcat
+    ItemName: Trash Cat
+    CoinPrice: 0
+    PremiumPrice: 0
+    ItemIcon: {fileID: 21300054, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 332370773783828632, guid: 6e6092484c599fc4f9720137654859fd,
+      type: 3}
+  Accessories:
+  - MaxBuyCount: 1
+    ItemType: 3
+    ID: Accessories_Fancyhat
+    ItemName: Fancy Hat
+    CoinPrice: 4000
+    PremiumPrice: 30
+    ItemIcon: {fileID: 21300012, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 6850405649261655442, guid: c120506dcdf581e4fb2879af0faa17a1,
+      type: 3}
+  - MaxBuyCount: 1
+    ItemType: 3
+    ID: Accessories_Workerhat
+    ItemName: Worker Hat
+    CoinPrice: 5000
+    PremiumPrice: 30
+    ItemIcon: {fileID: 21300026, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 9145983927668639107, guid: 9995835defc9f4746a09c34e4ec102c3,
+      type: 3}
+  Themes:
+  - MaxBuyCount: 1
+    ItemType: 4
+    ID: Theme_Day
+    ItemName: Day Theme
+    CoinPrice: 0
+    PremiumPrice: 0
+    ItemIcon: {fileID: 21300036, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 0}
+  - MaxBuyCount: 1
+    ItemType: 4
+    ID: Theme_Night
+    ItemName: Night Theme
+    CoinPrice: 1
+    PremiumPrice: 1
+    ItemIcon: {fileID: 21300038, guid: e1a536f74c7ef384a8d7132148ace0c8, type: 3}
+    Preview: {fileID: 0}

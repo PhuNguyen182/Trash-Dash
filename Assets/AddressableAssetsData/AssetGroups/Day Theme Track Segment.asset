@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Day Theme Track Segment
+  m_EditorClassIdentifier: 
+  m_GroupName: Day Theme Track Segment
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 434d7c2c5d5596540837b8675a3a0570
+  m_SerializeEntries:
+  - m_GUID: ce0239fe4bbff3844b1d88d1fc99e250
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f93599214166afd4f84025c2a66baa96
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 372aed6aadb21d44eb042068af5a0f8f
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f2ce51a9b1b2b54193f74beb163776e
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb093124eb58c664295c10f4aacb4a59
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f5f5c4696c6e52439c636eaf87ee172
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef313e75dee232f47ae559e53208bec6
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cfa4c1012603aa04f922c86328b11747
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 8.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bbb142b7a37f31b43883f540196dee96
+    m_Address: Assets/Prefabs/Track Segments/Day/Industries/Day Bundle 9.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74c318c941d36c34e926233fc8a96165
+    m_Address: Assets/Prefabs/Track Segments/Day/Free Roads/Day Bundle 10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6c13eda4a77c37340972b1e6d824e2cc
+    m_Address: Assets/Prefabs/Track Segments/Day/Free Roads/Day Bundle 11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 248a8b89bac7c9344a6f7419525a815d
+    m_Address: Assets/Prefabs/Track Segments/Day/Free Roads/Day Bundle 12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7868f14f1bf7e0a41826b4a5857637f6
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 13.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8bea4f5503105c74c89db2822bde6cd3
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 14.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac5f0b0bca8bbdf45a6cdc154cb26f58
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 15.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1a68e29f20d8e34da28a4dd87f14edf
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 16.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53cd83a097dfce64ba73350e518e8394
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 17.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0582c721ee4e35543b7f0a7c2f585e18
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 18.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccc6ca56f8cc63841b274d170c1f5cd1
+    m_Address: Assets/Prefabs/Track Segments/Day/Urbans/Day Bundle 19.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ff4a22eabb4f76747b7489fbeb525dfe
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 20.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06eb9ce56114f21479cec820f533a217
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 21.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f39b2e83afcf8441947e90b6eabe60a
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 22.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52a531cd2be44ad45b0543844b5dbb72
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 23.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1399cf9fee6b3141b693cbf345a14be
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 24.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5685e52eae43ed2499f5159ea58df15d
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 25.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7fa7193052d82234d9b8e09e9f95b8e7
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 26.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3235aa5b9131b794a8def7fefbc8bd77
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 27.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f95c6b51abdd74a40bcb732a9a9df950
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 28.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 29365ca222ae34345828e97dd89dbecc
+    m_Address: Assets/Prefabs/Track Segments/Day/Houses/Day Bundle 29.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26bfb7b035d5862409cf212b173380fa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 910ed6611be9ba242b6c6c079773c2f8, type: 2}
+    - {fileID: 11400000, guid: 52c6c9d2316d96943837c5740ccca83a, type: 2}

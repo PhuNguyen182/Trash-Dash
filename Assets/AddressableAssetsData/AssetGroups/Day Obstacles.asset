@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Day Obstacles
+  m_EditorClassIdentifier: 
+  m_GroupName: Day Obstacles
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 4355b7e845f1380449091e77c8de537f
+  m_SerializeEntries:
+  - m_GUID: b94badbafca61f44bb7017404717dccf
+    m_Address: Assets/Prefabs/Obstacles/Day/ObstacleBin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a8e42050c9c5a524397239af5ffff49e
+    m_Address: Assets/Prefabs/Obstacles/Day/ObstacleRoadWorksBarrier.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd6389b145ae1254bb1821960c270feb
+    m_Address: Assets/Prefabs/Obstacles/Day/ObstacleWorkCone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dfe0824b2e510304ea3ccd99b7d9db56
+    m_Address: Assets/Prefabs/Obstacles/Day/ObstacleWheelyBin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 898d3e0d3afbf934faee3d2b9afde467
+    m_Address: Assets/Prefabs/Obstacles/Day/ObstacleRoadWorksBarrierLow_Death.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f8f226cf1dd006a488acfe3786bf49bf
+    m_Address: Assets/Prefabs/Obstacles/Day/ObstacleRoadWorksBarrierHigh_Death.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34351fbd33ec9bb4c9affbf3680e7f61
+    m_Address: Assets/Prefabs/Obstacles/Day/Rat Obstacle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db2b4397f43f85d46823a1ed6df45583
+    m_Address: Assets/Prefabs/Obstacles/Day/Dog Obstacle.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26bfb7b035d5862409cf212b173380fa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: cf04ddc187b9a794ba0737ea1a888978, type: 2}
+    - {fileID: 11400000, guid: dbf039b6bc2fc07439e0b099cf8f6033, type: 2}

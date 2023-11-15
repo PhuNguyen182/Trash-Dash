@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Night Obstacles
+  m_EditorClassIdentifier: 
+  m_GroupName: Night Obstacles
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 23b68d1286c61734e9ac91c1b9cc5c24
+  m_SerializeEntries:
+  - m_GUID: cdd6406e008a0a4498b24c39faaa5977
+    m_Address: Assets/Prefabs/Obstacles/Night/ObstacleBin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1350cfbf7c5d85842af087392fc87ab5
+    m_Address: Assets/Prefabs/Obstacles/Night/ObstacleRoadWorksBarrier.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8f803fcad927567489fba7669bc34727
+    m_Address: Assets/Prefabs/Obstacles/Night/ObstacleRoadWorksBarrierHigh_Death.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e8573197773d784d984402f99f92eef
+    m_Address: Assets/Prefabs/Obstacles/Night/ObstacleRoadWorksBarrierLow_Death.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7fc6b4b2ef04b44a8dec1f706212eba
+    m_Address: Assets/Prefabs/Obstacles/Night/ObstacleWheelyBin.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0c7f70ad712b6464eac86d5846411d75
+    m_Address: Assets/Prefabs/Obstacles/Night/ObstacleWorkCone.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26bfb7b035d5862409cf212b173380fa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f555a18c1833dea4d966ae2930601682, type: 2}
+    - {fileID: 11400000, guid: 066915aa36def4947ac0092bdc7f9192, type: 2}

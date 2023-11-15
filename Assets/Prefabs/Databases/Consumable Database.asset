@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a87ffbba6ae134da929e4ed52dbcc6, type: 3}
+  m_Name: Consumable Database
+  m_EditorClassIdentifier: 
+  dayCoin: {fileID: 507403282051016025, guid: 952af9b3a6c97cb48a85fa7766ed9aac, type: 3}
+  nightCoin: {fileID: 507403282051016025, guid: 0a19f143460ccc14dac31c95d1064bfd,
+    type: 3}
+  dayPremiumCoin: {fileID: 2537072781587614505, guid: 628eccd1927a7d6409e4bedc6f4fd51d,
+    type: 3}
+  nightPremiumCoin: {fileID: 2537072781587614505, guid: edcaa7c975bbf3248a601bdc5dfbbe25,
+    type: 3}
+  DayPowerups:
+  - {fileID: -3317930758298514950, guid: cccc43bc040988e488680155c25b163c, type: 3}
+  - {fileID: 6203141393987091778, guid: 8c89761b43b2362418709a8178d5dd8c, type: 3}
+  - {fileID: -6093998287977787337, guid: 527cd33d94f565c428b85a011d736c3c, type: 3}
+  - {fileID: -1666344771936454467, guid: 1269ce00623d4694f927c463dd3be44a, type: 3}
+  NightPowerups:
+  - {fileID: -3317930758298514950, guid: 02d1e9df1ef0d3b4689910d75d00061f, type: 3}
+  - {fileID: 6203141393987091778, guid: 55e530991d94a6d4cb655aea38fd0ab4, type: 3}
+  - {fileID: -6093998287977787337, guid: 896adb00a9db3d340828c26accae4e63, type: 3}
+  - {fileID: -1666344771936454467, guid: 86d9808d66beb2545a46f858ff4f46b1, type: 3}

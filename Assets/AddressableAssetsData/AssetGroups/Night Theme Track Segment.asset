@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Night Theme Track Segment
+  m_EditorClassIdentifier: 
+  m_GroupName: Night Theme Track Segment
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fe6ec3a215d4f65418a8780ca96dddf8
+  m_SerializeEntries:
+  - m_GUID: fe385867761f7cc4ca91154e4a8ba034
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a21815d43ba11df46afaa57e3a9abad5
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 17f3b0b77d3d18142a5884beb4a79a32
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e579679ba6f24354e937cf2fd701c9e0
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05bb93bb03c2d574c8e9208c74b4de32
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3ef5c823622dc6642ab9411782098851
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 390f26dd5dc38e14e908152c795d869c
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc3e77bd4655ef44c963c1ca7eb8aa4b
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 8.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c1061e111dc0fa4997d4acecbca5b38
+    m_Address: Assets/Prefabs/Track Segments/Night/Industries/Night Bundle 9.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd96d69853c5bdd428afe47cb36bebc2
+    m_Address: Assets/Prefabs/Track Segments/Night/Free Roads/Night Bundle 10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a442c2d45eb93084eb7a8d2281aa7f5b
+    m_Address: Assets/Prefabs/Track Segments/Night/Free Roads/Night Bundle 11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f292c4c3143b0f408f93e9c2d21f343
+    m_Address: Assets/Prefabs/Track Segments/Night/Free Roads/Night Bundle 12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f4c13cbdbcd058a4ba9ef1eee0a9b20d
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 13.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21ae3d5dcfd4bb44e9694251fdd80736
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 14.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eef8c302c943e2c4e9389e7ae6b0b971
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 15.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 51a3d56d610b8c04faf73ec885a1d0d6
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 16.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0b78a811a7800248aca1bf0f44cfa5c
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 17.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e8de0706727ecd41a11abc5a2b7acac
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 18.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15a9273b2d1bcad4abf39aaaa0eb4672
+    m_Address: Assets/Prefabs/Track Segments/Night/Urbans/Night Bundle 19.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3158d25f4849f5148bf681924b1bc358
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 20.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 25857bdfda732f24a8487d474dc7cab4
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 21.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8011735b96f40414a8a1178b6ea47a08
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 22.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2504fe36005ee504d8f2b6192b5bddbe
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 23.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 195cc94ce2763734283be0cae79a31c7
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 24.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d0c3343f990c91c4ab77bbd496897c3f
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 25.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6715d5f1b8eb15d4bac873dc2f8ff33e
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 26.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0e6f4a2741338147a53e05736a3adae
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 27.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4c787266f80e0aa468d637c32d4dae7e
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 28.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1cbea39cfd940174bb4eb7f9e23d0440
+    m_Address: Assets/Prefabs/Track Segments/Night/Houses/Night Bundle 29.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26bfb7b035d5862409cf212b173380fa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f696467ab7b50f64b8e5a13cdc114c5c, type: 2}
+    - {fileID: 11400000, guid: b57427b7ca2bca8418f731097fef3e39, type: 2}
