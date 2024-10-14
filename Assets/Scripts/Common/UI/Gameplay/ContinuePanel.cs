@@ -56,7 +56,7 @@ namespace TrashDash.Scripts.Common.UI.Gameplay
 
         public async UniTask OnAppear()
         {
-            
+            await UniTask.CompletedTask;
         }
 
         public async UniTask Close()
