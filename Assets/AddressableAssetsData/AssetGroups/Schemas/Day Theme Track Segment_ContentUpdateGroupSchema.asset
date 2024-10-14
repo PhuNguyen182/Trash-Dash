@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Day Theme Track Segment_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: 55a9f576aa4abdd4a81a727dbbba9527, type: 2}
-  m_StaticContent: 0
+  m_StaticContent: 1

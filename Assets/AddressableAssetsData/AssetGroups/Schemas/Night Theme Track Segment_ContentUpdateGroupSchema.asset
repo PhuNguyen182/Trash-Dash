@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Night Theme Track Segment_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
   m_Group: {fileID: 11400000, guid: 563522fe6169bba42b092d25a2e6b1d5, type: 2}
-  m_StaticContent: 0
+  m_StaticContent: 1

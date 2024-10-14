@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common Animators
+  m_EditorClassIdentifier: 
+  m_GroupName: Common Animators
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6484dd9a04d5f214abd155f4c8cc4674
+  m_SerializeEntries:
+  - m_GUID: 813e40250a4b86342aa7ed5ac5906f4a
+    m_Address: Assets/Trash Dash Assets/Animation/Animators/Dog.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 26bfb7b035d5862409cf212b173380fa, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fdacb052fa969aa42ac3240fbad61cbd, type: 2}
+    - {fileID: 11400000, guid: 0a56947c66bafa14cabed657b1ddfa06, type: 2}

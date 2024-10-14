@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5834b5087d578d24c926ce20cd31e6d6, type: 3}
-  m_Name: Night Obstacles_ContentUpdateGroupSchema
+  m_Name: Common Animators_ContentUpdateGroupSchema
   m_EditorClassIdentifier: 
-  m_Group: {fileID: 11400000, guid: fedd6662974506b4d9f654cdb1a4ce22, type: 2}
+  m_Group: {fileID: 11400000, guid: 3556ef9ff928a514e962e1d907025b1e, type: 2}
   m_StaticContent: 1
