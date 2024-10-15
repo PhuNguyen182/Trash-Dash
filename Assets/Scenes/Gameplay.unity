@@ -1395,7 +1395,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &561397654
 MonoBehaviour:
@@ -3524,7 +3524,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1166278945
 MonoBehaviour:
@@ -3932,6 +3932,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388947002}
   - component: {fileID: 1388947001}
+  - component: {fileID: 1388947003}
   m_Layer: 0
   m_Name: Gameplay Manager
   m_TagString: Untagged
@@ -3971,6 +3972,20 @@ Transform:
   - {fileID: 829181471}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1388947003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388947000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3cc67ada39408428913ee33678d502, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useDesiredValue: 1
+  desiredFramerate: 60
 --- !u!1 &1422226179
 GameObject:
   m_ObjectHideFlags: 0
