@@ -9,17 +9,27 @@ namespace TrashDash.Scripts.Common.Gameplay.GameEntities.Character
     {
         [SerializeField] private Transform blobShadow;
         [SerializeField] private Transform characterPoint;
+
+        [Header("Player Components")]
         [SerializeField] private CharacterInput characterInput;
         [SerializeField] private CharacterCollider characterCollider;
         [SerializeField] private CharacterAnimation characterAnimation;
+
+        [Header("Movement Config")]
         [SerializeField] private float moveDuration = 0.5f;
+        [SerializeField] private float jumpHeight = 1.2f;
+        [SerializeField] private float slideDuration = 0.25f;
         [SerializeField] private float jumpDuration;
+
+        private const float LeftSide = -1.5f;
+        private const float RightSide = 1.5f;
 
         private bool _canJump = true;
         private bool _canSlide = true;
         private bool _hasSoundComponent = false;
 
         private Vector3 _toPosition;
+        private Vector3 _startPosition, _endPosition;
         private CharacterSound _characterSound;
 
         private Coroutine _moveCoroutine;
@@ -40,28 +50,69 @@ namespace TrashDash.Scripts.Common.Gameplay.GameEntities.Character
 
         private void Update()
         {
-            if (characterInput.IsLeft)
-                MoveLeft();
-
-            if (characterInput.IsRight)
-                MoveRight();
-
-            if (characterInput.IsUp && _canJump)
-                JumpUp();
-
-            if (characterInput.IsDown && _canSlide)
-                SlideDown();
+            if (IsMobilePlatform())
+                MobileInputHandle();
+            else
+                StandaloneInputHandle();
 
             blobShadow.localPosition = new Vector3(characterPoint.localPosition.x, 0.01f, 0);
         }
 
+        private bool IsMobilePlatform()
+        {
+#if UNITY_ANDROID || UNITY_IOS
+            return true;
+#else
+            return false;
+#endif
+        }
+
+        private void StandaloneInputHandle()
+        {
+            if (characterInput.IsPressed)
+            {
+                Move(characterInput.SwipeDirection);
+            }
+        }
+
+        private void MobileInputHandle()
+        {
+            if (characterInput.IsPressed && !characterInput.HasSwiped)
+                characterInput.HasSwiped = true;
+
+            if (characterInput.HasSwiped && characterInput.CanSwipe())
+            {
+                characterInput.CalculateSwipe();
+                characterInput.HasSwiped = false;
+                Move(characterInput.SwipeDirection);
+            }
+
+            if (characterInput.IsReleased)
+                characterInput.HasSwiped = false;
+        }
+
+        private void Move(Vector2Int direction)
+        {
+            if (direction == Vector2Int.left)
+                MoveLeft();
+
+            if (direction == Vector2Int.right)
+                MoveRight();
+
+            if (direction == Vector2Int.up && _canJump)
+                JumpUp();
+
+            if (direction == Vector2Int.down && _canSlide)
+                SlideDown();
+        }
+
         private void MoveLeft()
         {
-            if (characterPoint.localPosition.x > -1.5f)
-                _toPosition += Vector3.left * 1.5f;
+            if (characterPoint.localPosition.x > LeftSide)
+                _toPosition += Vector3.left * RightSide;
 
-            if (_toPosition.x < -1.5f)
-                _toPosition += Vector3.right * 1.5f;
+            if (_toPosition.x < LeftSide)
+                _toPosition += Vector3.right * RightSide;
 
             if (_moveCoroutine != null)
                 StopCoroutine(_moveCoroutine);
@@ -71,11 +122,11 @@ namespace TrashDash.Scripts.Common.Gameplay.GameEntities.Character
 
         private void MoveRight()
         {
-            if (characterPoint.localPosition.x < 1.5f)
-                _toPosition += Vector3.right * 1.5f;
+            if (characterPoint.localPosition.x < RightSide)
+                _toPosition += Vector3.right * RightSide;
 
-            if (_toPosition.x > 1.5f)
-                _toPosition += Vector3.left * 1.5f;
+            if (_toPosition.x > RightSide)
+                _toPosition += Vector3.left * RightSide;
 
             if (_moveCoroutine != null)
                 StopCoroutine(_moveCoroutine);
@@ -159,7 +210,7 @@ namespace TrashDash.Scripts.Common.Gameplay.GameEntities.Character
             while (elapsedTime < jumpDuration)
             {
                 elapsedTime += Time.deltaTime * 2;
-                height = Mathf.Sin(elapsedTime * Mathf.PI) * 1.2f;
+                height = Mathf.Sin(elapsedTime * Mathf.PI) * jumpHeight;
                 movePosition = new Vector3
                 {
                     x = characterPoint.localPosition.x,
@@ -203,10 +254,10 @@ namespace TrashDash.Scripts.Common.Gameplay.GameEntities.Character
                 z = characterPoint.localPosition.z
             };
 
-            while (elapsedTime < 0.25f)
+            while (elapsedTime < slideDuration)
             {
                 elapsedTime += Time.deltaTime;
-                ratio = elapsedTime / 0.25f;
+                ratio = elapsedTime / slideDuration;
                 characterPoint.localPosition = Vector3.Lerp(characterPoint.localPosition, movePosition, ratio);
 
                 yield return null;
