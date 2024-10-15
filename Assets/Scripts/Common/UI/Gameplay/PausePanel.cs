@@ -58,5 +58,10 @@ namespace TrashDash.Scripts.Common.UI.Gameplay
             if (value == 1f)
                 Time.timeScale = 1;
         }
+
+        private void OnDestroy()
+        {
+            Time.timeScale = 1;
+        }
     }
 }
