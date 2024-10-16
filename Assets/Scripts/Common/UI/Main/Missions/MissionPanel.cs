@@ -25,7 +25,7 @@ namespace TrashDash.Scripts.Common.UI.Main.Mission
 
         public async UniTask OnAppear()
         {
-            
+            await UniTask.CompletedTask;
         }
 
         public void OnCLose()

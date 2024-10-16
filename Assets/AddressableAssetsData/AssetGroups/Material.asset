@@ -21,14 +21,117 @@ MonoBehaviour:
     m_Address: Assets/Trash Dash Assets/Materials/VCOL.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9eb722b0ceeb9c34fa2b2afbc8a97dd1
     m_Address: Assets/Trash Dash Assets/Materials/BrickWall.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 8ae7f702ec351074699756ad9e5ccd8a
     m_Address: Assets/Trash Dash Assets/Materials/Graffiti.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e678ec0f80695014392e78a0142dfd2f
+    m_Address: Assets/Trash Dash Assets/Shaders/CurvedUnlitAlpha.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d8fc18fdc65dd4aa903210d93f3343
+    m_Address: Assets/Trash Dash Assets/Shaders/CurvedUnlit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98bdd2e108de67d439c390dc7cb78caa
+    m_Address: Assets/Trash Dash Assets/Materials/CorrugatedMetal.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f4ed16685a4be14fab2d5de621fb6ab
+    m_Address: Assets/Trash Dash Assets/Materials/Pipe.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 540c9cb7b5d464f44b60de14713427a3
+    m_Address: Assets/Trash Dash Assets/Materials/Plaster.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dc78b81a4d12bd42bd2c32e62d95511
+    m_Address: Assets/Trash Dash Assets/Materials/Bin.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7240c07fe5949594d986ba5a52ff74a3
+    m_Address: Assets/Trash Dash Assets/Materials/WheelyBin.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69829cac8b260bf41b9f2f02e4309ca8
+    m_Address: Assets/Trash Dash Assets/Materials/BinBag.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7e8c93fba6557646bbe79ad80e49536
+    m_Address: Assets/Trash Dash Assets/Materials/Car01.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c4cead7e53929f448c0443a1c2b53a9
+    m_Address: Assets/Trash Dash Assets/Materials/Dumpster.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da664df448f82244e9298f1b25ecab3b
+    m_Address: Assets/Trash Dash Assets/Materials/WoodSlats.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10e8db89de774a84c9cfd9eb0e469ae0
+    m_Address: Assets/Trash Dash Assets/Materials/Rubbish.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc6dac39dcb64674aab03f9e54dae6f7
+    m_Address: Assets/Trash Dash Assets/Materials/Skip.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85d81c232c824d442b725b70e65aeee5
+    m_Address: Assets/Trash Dash Assets/Materials/ManHole.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 513ad1869b4ea054fa6f8045db0b4ff8
+    m_Address: Assets/Trash Dash Assets/Materials/WashingLineClothes.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3990293bef2fe54697307460d45c3e2
+    m_Address: Assets/Trash Dash Assets/Materials/Stone.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77b24526fea2ba6409c54ea3e9a43332
+    m_Address: Assets/Trash Dash Assets/Materials/Dog.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a31a8a627e6f7d24aa0af123ce1403c6
+    m_Address: Assets/Trash Dash Assets/Materials/TreeBranch.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba32940091fa1bf4eb3605bc89fc4cd2
+    m_Address: Assets/Trash Dash Assets/Materials/Car02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a50f50d60db8584d8079d8fc0b627ad
+    m_Address: Assets/Trash Dash Assets/Animation/Materials/lambert1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 26bfb7b035d5862409cf212b173380fa, type: 2}
   m_SchemaSet:

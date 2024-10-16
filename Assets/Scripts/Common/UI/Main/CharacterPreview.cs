@@ -2,8 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using TrashDash.Scripts.Common.Databases;
 using TrashDash.Scripts.Common.DataStructs.Datas;
-using TrashDash.Scripts.Common.Enumerations;
-using TrashDash.Scripts.Common.Gameplay.Mainhome;
 using TrashDash.Scripts.Common.GameSystem.Config;
 using UnityEngine;
 

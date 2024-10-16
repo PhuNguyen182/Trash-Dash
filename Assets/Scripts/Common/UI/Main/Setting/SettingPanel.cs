@@ -26,7 +26,7 @@ namespace TrashDash.Scripts.Common.UI.Main.Setting
 
         public async UniTask OnAppear()
         {
-            
+            await UniTask.CompletedTask;
         }
 
         public void OnCLose()
